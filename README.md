@@ -9,7 +9,7 @@ Análise fundamentalista de ações com uso da API Fundamentus
   <li>Clicar em '+ Novo Notebook'
   <li>Inserir '!pip install fundamentus' e dar clicar em executar (seta para a direita)
   <li>Após baixar a biblioteca, clicar em '+ código'
-  <li>Inserir código do arquivo do projeto e executar 
+  <li>Inserir código do arquivo 'Analise_Fundamentalista.py' no Google Colab e executar 
 </ol>
 
 <h2>
