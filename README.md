@@ -5,7 +5,7 @@ Análise fundamentalista de ações com uso da API Fundamentus. Executando o có
   Execução
 </h2>
 <ol>
-  <li>Acessar Google Colab - <a href="https://colab.research.google.com/">Clique aqui</a>
+  <li>Acessar Google Colab - <a href="https://colab.research.google.com/" target="_blank">Clique aqui</a>
   <li>Clicar em '+ Novo Notebook'
   <li>Inserir '!pip install fundamentus' e dar clicar em executar (seta para a direita)
   <li>Após baixar a biblioteca, clicar em '+ código'
