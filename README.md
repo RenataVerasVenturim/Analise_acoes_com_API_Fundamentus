@@ -1,5 +1,5 @@
 # Analise_acoes_com_API_Fundamentus
-Análise fundamentalista de ações com uso da API Fundamentus
+Análise fundamentalista de ações com uso da API Fundamentus. Executando o código, você terá gráficos montados com base em uma filtragem de todas as ações da B3 com base em parâmetros que criei para os indicadores vp, pl, dy, etc.
 
 <h2>
   Execução
