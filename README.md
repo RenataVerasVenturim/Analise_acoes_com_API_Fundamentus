@@ -7,12 +7,12 @@ Análise fundamentalista de ações com uso da API Fundamentus. Executando o có
 <ol>
   <li>Acessar Google Colab - <a href="https://colab.research.google.com/" target="_blank">Clique aqui</a>
   <li>Clicar em '+ Novo Notebook'
-  <li>Inserir '!pip install fundamentus' e dar clicar em executar (seta para a direita)
+  <li>Copiar o texto '!pip install fundamentus', inserir no Google Colab e clicar em executar (seta para a direita)
   <li>Após baixar a biblioteca, clicar em '+ código'
-  <li>Inserir código do arquivo 'Analise_Fundamentalista.py' no Google Colab e executar . <a href="https://github.com/RenataVerasVenturim/Analise_acoes_com_API_Fundamentus/blob/main/Analise_Fundamentalista.py">Acessar arquivo</a>
+  <li>Copiar o código do arquivo 'Analise_Fundamentalista.py', colar no Google Colab e clicar em executar . <a href="https://github.com/RenataVerasVenturim/Analise_acoes_com_API_Fundamentus/blob/main/Analise_Fundamentalista.py">Acessar código a ser copiado</a>
   <li>Clicar em "+código"
-  <li>baixar bibliotecas para análise técnica '!pip install pandas matplotlib statsmodels yfinance'
-  <li>Inserir código do arquivo 'Analise_tecnica.py' no Google Colab e executar. <a href="https://github.com/RenataVerasVenturim/Analise_acoes_com_API_Fundamentus/blob/main/Analise_tecnica.py">Acessar arquivo</a>
+  <li>Copiar o texto '!pip install pandas matplotlib statsmodels yfinance' e colar no google colab . Clicar para executar.
+  <li>Copiar o código do arquivo Analise_tecnica.py e colar no Google colab.Depois, executar<a href="https://github.com/RenataVerasVenturim/Analise_acoes_com_API_Fundamentus/blob/main/Analise_tecnica.py">Acessar código a ser copiado</a>
 </ol>
 
 <h2>
