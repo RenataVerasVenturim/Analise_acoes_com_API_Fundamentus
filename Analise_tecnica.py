@@ -1,6 +1,5 @@
-# instalar bibliotecas -> pip install pandas matplotlib statsmodels yfinance
-
 #------------------------------------------ANÁLISE TÉCNICA------------------
+# instalar bibliotecas -> pip install pandas matplotlib statsmodels yfinance
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -35,5 +34,5 @@ for item in papel:
     ax,fig=plt.subplots(figsize=(15,8))
     plt.plot(decomposicao.observed)
     
-    plt.title(f'Médica móvel de {item}')
+    plt.title(f'Média móvel de {item}')
     plt.plot(decomposicao.trend)
