@@ -12,7 +12,7 @@ Análise fundamentalista de ações com uso da API Fundamentus. Executando o có
   <li>Inserir código do arquivo 'Analise_Fundamentalista.py' no Google Colab e executar . <a href="https://github.com/RenataVerasVenturim/Analise_acoes_com_API_Fundamentus/blob/main/Analise_Fundamentalista.py">Acessar arquivo</a>
   <li>Clicar em "+código"
   <li>baixar bibliotecas para análise técnica '!pip install pandas matplotlib statsmodels yfinance'
-  <li>Inserir código do arquivo 'Analise_tecnica.py' no Google Colab e executar
+  <li>Inserir código do arquivo 'Analise_tecnica.py' no Google Colab e executar. <a href="https://github.com/RenataVerasVenturim/Analise_acoes_com_API_Fundamentus/blob/main/Analise_tecnica.py">Acessar arquivo</a>
 </ol>
 
 <h2>
