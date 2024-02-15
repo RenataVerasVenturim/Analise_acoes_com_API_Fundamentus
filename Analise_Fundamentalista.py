@@ -51,7 +51,7 @@ setorSeguros = fundamentus.list_papel_setor(31)
 
 filtrarSeguros=df.query('index in @setorSeguros')
 
-SegurosFiltrado=filtrarSeguros[(filtrarSeguros.dy>0)&(filtrarSeguros.dy<0.06)&(filtrarSeguros.pl>1)&(filtrarSeguros.pl<=40)&(filtrarSeguros.pvp<=1.00)&(filtrarSeguros.pvp>0)]
+SegurosFiltrado=filtrarSeguros[(filtrarSeguros.dy>0.40)&(filtrarSeguros.dy>0.06)&(filtrarSeguros.pl>1)&(filtrarSeguros.pl<=40)&(filtrarSeguros.pvp<=1.00)&(filtrarSeguros.pvp>0)]
 
 plt.figure(figsize=(10,8))
 SegurosFiltrado.sort_values('dy', inplace=True)
