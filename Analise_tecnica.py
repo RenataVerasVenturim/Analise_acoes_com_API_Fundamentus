@@ -21,18 +21,20 @@ for item in papel:
     decomposicao = seasonal_decompose(filtro2['Close'], model='additive', period=30, extrapolate_trend=30)
     filtro2[['Close']].plot()
 
-    
+
     plt.title(f'Gráficos de {item}')
     fig,(ax1,ax2,ax3,ax4)=plt.subplots(4,1, figsize=(12,8))
-    decomposicao.observed.plot(ax=ax1)
-    decomposicao.trend.plot(ax=ax2)
-    decomposicao.seasonal.plot(ax=ax3)
-    decomposicao.resid.plot(ax=ax4)
+    decomposicao.observed.plot(ax=ax1,title='Close')
+    decomposicao.trend.plot(ax=ax2,title='Tendência')
+    decomposicao.seasonal.plot(ax=ax3,title='Sazonalidade')
+    decomposicao.resid.plot(ax=ax4,title='Resíduos')
     plt.tight_layout()
     #gráfico de tendencia
-    plt.title(f'Tendência de {item}')
+    plt.title(f'Gráfico temporal de {item}')
+
     ax,fig=plt.subplots(figsize=(15,8))
     plt.plot(decomposicao.observed)
-    
+
     plt.title(f'Média móvel de {item}')
     plt.plot(decomposicao.trend)
+
