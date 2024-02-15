@@ -1,4 +1,4 @@
-!pip install fundamentus
+#!pip install fundamentus
 #-------------------------------------ANÁLISE FUNDAMENTALISTA--------------------------------------------------
 
 #puxar indicadores fundamentalistas de todas as ações da b3 
@@ -63,7 +63,7 @@ setorEletricas = fundamentus.list_papel_setor(14)
 
 filtrarEletricas=df.query('index in @setorEletricas')
 
-EletricasFiltrado=filtrarEletricas[(filtrarEletricas.dy>0)&(filtrarEletricas.dy<0.06)&(filtrarEletricas.pl>1)&(filtrarEletricas.pl<=40)&(filtrarEletricas.pvp<=1.00)&(filtrarEletricas.pvp>0)]
+EletricasFiltrado=filtrarEletricas[(filtrarEletricas.dy>0.06)&(filtrarEletricas.dy<0.40)&(filtrarEletricas.pl>1)&(filtrarEletricas.pl<=40)&(filtrarEletricas.pvp<=1.00)&(filtrarEletricas.pvp>0)]
 
 plt.figure(figsize=(10,8))
 EletricasFiltrado.sort_values('dy', inplace=True)
